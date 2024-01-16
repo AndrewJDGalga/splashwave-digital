@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://u2m3up3qw88n"]
+
+[ext_resource type="Texture2D" uid="uid://buqfn2wlsgs3d" path="res://data/white_tile.png" id="1_5siqc"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0cgfq"]
+texture = ExtResource("1_5siqc")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_vh8ur"]
+tile_size = Vector2i(32, 32)
+sources/0 = SubResource("TileSetAtlasSource_0cgfq")
+
+[node name="base_tileset" type="TileMap"]
+tile_set = SubResource("TileSet_vh8ur")
+format = 2

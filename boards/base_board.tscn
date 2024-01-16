@@ -1,3 +1,8 @@
-[gd_scene format=3 uid="uid://bq1bxy5yik4x4"]
+[gd_scene load_steps=2 format=3 uid="uid://bq1bxy5yik4x4"]
+
+[ext_resource type="PackedScene" uid="uid://u2m3up3qw88n" path="res://boards/base_tileset.tscn" id="1_83rg4"]
 
 [node name="base_board" type="Node2D"]
+
+[node name="base_tileset" parent="." instance=ExtResource("1_83rg4")]
+layer_0/tile_data = PackedInt32Array(0, 0, 0, -65536, 0, 0, -1, 0, 0, 65535, 0, 0, 131071, 0, 0, 65536, 0, 0, 65537, 0, 0, 1, 0, 0, -65535, 0, 0, -131071, 0, 0, -131072, 0, 0, -65537, 0, 0, -65538, 0, 0, -2, 0, 0, 65534, 0, 0, 131070, 0, 0, -131070, 0, 0, -65534, 0, 0, 2, 0, 0, 65538, 0, 0, -131074, 0, 0, -131073, 0, 0, -196608, 0, 0, -196607, 0, 0, -196606, 0, 0)
