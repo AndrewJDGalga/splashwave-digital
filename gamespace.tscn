@@ -1,3 +1,5 @@
 [gd_scene format=3 uid="uid://cvovh8twbdbet"]
 
 [node name="Gamespace" type="Node2D"]
+
+[node name="TurnTimer" type="Timer" parent="."]

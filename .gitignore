@@ -1,6 +1,7 @@
 *
 **/*
 
+!boards/
 !.gitignore
 !project.godot
 !*.tscn
