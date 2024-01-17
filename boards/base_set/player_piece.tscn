@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dckjrqmvnthiq"]
+
+[ext_resource type="Texture2D" uid="uid://doj21cvqs0rdh" path="res://data/white_stone.png" id="1_qlefo"]
+[ext_resource type="Texture2D" uid="uid://b1h8u2ulapf0y" path="res://data/black_stone.png" id="2_y2hb4"]
+
+[node name="PlayerPiece" type="Area2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="WhiteSprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_qlefo")
+
+[node name="BlackSprite" type="Sprite2D" parent="."]
+texture = ExtResource("2_y2hb4")

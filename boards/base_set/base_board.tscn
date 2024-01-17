@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bq1bxy5yik4x4"]
 
-[ext_resource type="PackedScene" uid="uid://u2m3up3qw88n" path="res://boards/base_tileset.tscn" id="1_83rg4"]
+[ext_resource type="PackedScene" uid="uid://u2m3up3qw88n" path="res://boards/base_set/base_tileset.tscn" id="1_83rg4"]
 
 [node name="base_board" type="Node2D"]
 

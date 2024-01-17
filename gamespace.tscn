@@ -1,5 +1,7 @@
-[gd_scene format=3 uid="uid://cvovh8twbdbet"]
+[gd_scene load_steps=2 format=3 uid="uid://cvovh8twbdbet"]
+
+[ext_resource type="PackedScene" uid="uid://bq1bxy5yik4x4" path="res://boards/base_set/base_board.tscn" id="1_2vylu"]
 
 [node name="Gamespace" type="Node2D"]
 
-[node name="TurnTimer" type="Timer" parent="."]
+[node name="base_board" parent="." instance=ExtResource("1_2vylu")]
