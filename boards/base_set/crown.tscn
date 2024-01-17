@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://ccunxlf74wdcd" path="res://data/crown.png" id="1_uobbn"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_37joe"]
-radius = 16.0
+radius = 12.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ithfv"]
 size = Vector2(64, 64)
